@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>${title}</title>
+</head>
+
+<body>
+	<h1>Welcome to ${title}</h1>
+	
+	<p>Hope your ${day}! is going great!</p>
+	
+	<form method="${method}" action="${action}">
+		
+	<p>
+		<label for="query">Query:</label>
+		<input type="text" name="query" id="query" maxlength="100" size="50">
+	</p>
+		
+	<p>
+		<label for="link">New Link:</label>
+		<input type="text" name="link" id="link" maxlength="100" size="100">
+	</p>
+	
+	<p><small>This request was handled by THREAD ${thread}</small></p>
+	<p>
+		<input type="submit" value="Submit">
+	</p>
+	</form>
+</body>
+</html>
